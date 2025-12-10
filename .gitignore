@@ -2,7 +2,8 @@
 venv/
 .venv/
 env/
-api key
+apikeys.txt
+
 # Python caches & build artifacts
 __pycache__/
 *.py[cod]
