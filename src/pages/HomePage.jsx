@@ -43,7 +43,7 @@ export default function HomePage() {
             <div className="flex flex-wrap items-center justify-center gap-3 mb-8">
 
               <button 
-                onClick={() => navigate("/agents")}
+                onClick={() => navigate("/Agents")}
                 className="flex items-center gap-2 px-4 py-2 bg-blue-500/20 border border-blue-400/30 rounded-full backdrop-blur-sm"
               >
                 <Brain size={16} className="text-blue-300" />

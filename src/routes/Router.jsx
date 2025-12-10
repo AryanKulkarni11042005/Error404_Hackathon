@@ -11,6 +11,7 @@ const CampaignPage = lazy(() => import("../pages/CampaignPage"));
 const MatchPage = lazy(() => import("../pages/MatchPage"));
 const ReportsPage = lazy(() => import("../pages/ReportsPage"));
 const EquityModelPage = lazy(() => import("../pages/EquityModelPage"));
+const Agents = lazy(() => import("../pages/Agents"));
 
 export default function Router() {
   return (
@@ -35,6 +36,7 @@ export default function Router() {
             <Route path="/match" element={<MatchPage />} />
             <Route path="/reports" element={<ReportsPage />} />
             <Route path="/EquityModelPage" element={<EquityModelPage />} />
+            <Route path="/Agents" element={<Agents />} />
 
           </Route>
         </Routes>
