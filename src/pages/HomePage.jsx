@@ -51,7 +51,7 @@ export default function HomePage() {
               </button>
 
               <button 
-                onClick={() => navigate("/analysis")}
+                onClick={() => navigate("/competition")}
                 className="flex items-center gap-2 px-4 py-2 bg-purple-500/20 border border-purple-400/30 rounded-full backdrop-blur-sm"
               >
                 <Sparkles size={16} className="text-purple-300" />
@@ -67,7 +67,7 @@ export default function HomePage() {
               </button>
 
               <button 
-                onClick={() => navigate("/equity")}
+                onClick={() => navigate("/EquityModelPage")}
                 className="flex items-center gap-2 px-4 py-2 bg-orange-500/20 border border-orange-400/30 rounded-full backdrop-blur-sm"
               >
                 <Rocket size={16} className="text-orange-300" />
