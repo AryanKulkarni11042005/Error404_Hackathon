@@ -7,6 +7,7 @@ import LoadingDots from "../components/LoadingDots";
 // Lazy-loaded pages
 const HomePage = lazy(() => import("../pages/HomePage"));
 const CompetitionPage = lazy(() => import("../pages/CompetitionPage"));
+const NewCompPage = lazy(() => import("../pages/NewCompPage"));
 const CampaignPage = lazy(() => import("../pages/CampaignPage"));
 const MatchPage = lazy(() => import("../pages/MatchPage"));
 const ReportsPage = lazy(() => import("../pages/ReportsPage"));
@@ -31,7 +32,7 @@ export default function Router() {
           <Route element={<Layout />}>
 
             <Route path="/" element={<HomePage />} />
-            <Route path="/competition" element={<CompetitionPage />} />
+            <Route path="/competition" element={<NewCompPage />} />
             <Route path="/request" element={<CampaignPage />} />
             <Route path="/match" element={<MatchPage />} />
             <Route path="/reports" element={<ReportsPage />} />

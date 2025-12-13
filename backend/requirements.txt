@@ -1,0 +1,9 @@
+fastapi
+httpx
+pydantic
+python-dotenv
+uvicorn
+anyio
+openai
+jiter
+pydantic-core
